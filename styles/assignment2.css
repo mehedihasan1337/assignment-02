@@ -29,6 +29,7 @@
     /* color 2 */
     .color-2{
       color: rgba(255, 255, 255, 0.5);
+      font-size: 14px;
     }
   
     .butten{
@@ -39,9 +40,13 @@
        border: none;
       
     }
+    .top{
+        position: relative;
+        top: -50px;
+    }
     .btn{
   
-      background-color:black;
+      background-color:rgba(0, 0, 0, 0.041);
       color: #FFFFFF;
       padding: 8px 16px;
       border-radius: 45px;
@@ -89,11 +94,159 @@
     background-color: rgba(255, 255, 255, 0.1);
     color: #FFFFFF;
     border-radius: 12px;
+    border: none;
+    padding: 0 30px;
+    position: relative;
+    left: 330px;
+    top: -100px;
+    text-align: left;
     
   
+  }
+  .br-1{
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    padding: 0 20px;
+    position: relative;
+    left: 450px;
+    top: -400px;
+    text-align: left;
   }
   .fs{
     font-size: 10px;
     color: rgba(255, 255, 255, 0.5) ;
   }
+
+
+
+
+
+  /* part-2 */
   
+
+  .text-center{
+    text-align: center;
+  }
+  .clr{
+    color: #FFFFFF;
+  }
+  .section-titel{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .section-description{
+    position: relative;
+    top: -15px;
+}
+  .skills{
+    margin-left: 198px;
+    margin-right: 198px;
+  }
+  /* skills section */
+  .skills-container{
+    /* display: grid;
+    grid-template-rows: repeat(4); */
+    display: flex;
+    text-align: center;
+    gap: 65px;
+    margin-top: 40px;
+  }
+  
+  .rdns{
+    border:1px solid #777777;
+    border-radius: 50%;
+  }
+  .about{
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .banner-2{
+    background-color: #222222;
+    display: flex;
+    border-radius: 18px;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 20px;
+  }
+  .margin{
+    margin-left: 40px;
+  }
+  .zoom{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 100% center;
+    border-radius: 18px;
+    margin-top: 20px;
+    margin-right: 40px; 
+  }
+  .wth{
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+  .top-1{
+    margin-top: 30px;
+  }
+  .one{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% center;
+    
+
+  }
+  .two{
+    width: 418px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% center;
+    
+    
+
+  }
+  .three{
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+  .row{
+
+    height: 200px;
+    display: flex;
+  }
+  #flx{
+    display: flex;
+  }
+  .a{
+    margin-top: -270px;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+  .b{
+    margin-top: -350px;
+    margin-left: 170px;
+    font-size: 14px;
+  }
+  .d{
+    margin-top: -70px;
+    margin-right: 100px;
+    font-size: 14px;
+  }
+  .e{
+    margin-top: -270px;
+    margin-right: -100px;
+    font-size: 14px;
+  }
+  .c{
+    margin-top: -150px;
+    margin-left: -130px;
+    font-size: 14px;
+  }
+  .f{
+    margin-top: -70px;
+    margin-left: -20px;
+    font-size: 14px;
+  }
