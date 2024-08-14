@@ -399,3 +399,81 @@
     text-align: center;
     
   }
+
+
+
+  /* responciv media quari */
+  @media screen and (max-width: 576px){
+
+    nav{
+      flex-direction: column;
+      
+    }
+    
+    .banner{
+      flex-direction: column;
+      margin: 10px;
+    }
+    .br{
+    
+      position: relative;
+      left: -250px;
+      top: 600px;
+      text-align: right;
+    }
+    .br-1{
+    
+      position: relative;
+      left: 200px;
+      top: 200px;
+      text-align: right;
+    }
+    .skills{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .skills-container{
+      flex-direction: column;
+    }
+    .banner-2{
+    
+      flex-direction: column;
+      
+      padding: 30px;
+      
+    }
+    .wth{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .one{
+      width: 100px;
+      height: 200px;
+      object-fit: cover;
+      object-position: 100% center;
+      
+      
+  
+    }
+    .two{
+      width: 208px;
+      height: 200px;
+      object-fit: cover;
+      object-position: 100% center;
+      
+      
+  
+    }
+    .three{
+      width: 290px;
+      height: 200px;
+      object-fit: cover;
+      object-position: 100% center;
+    }
+    .row{
+  
+      height: 200px;
+      display: flex;
+    }
+       
+  }
