@@ -5,6 +5,10 @@
     font-optical-sizing: auto;
    font-style: normal;
   }
+  /* *{
+    margin: 0;
+    padding: 0;
+  } */
   .font{
     font-family: 'Miama';
     font-size:70px;
@@ -318,4 +322,80 @@
     background-color: #ffffff11;
 
   } 
+  /* part 4 */
 
+
+
+
+
+     .mgn-3{
+      /* margin-left: 190px;
+      margin-right: 190px; */
+      width: 1060px;
+      margin: 20px 190px;
+      
+     }
+     .clr-2{
+      background-color:#ffffff10;
+      border-radius: 18px;
+     }
+
+  .all{
+    width: 325px;
+    height: 270px;
+    object-fit: cover;
+    object-position: 100% center;
+    border-radius: 18px;
+    gap: 30px;
+    
+    padding: 10px;
+  }
+  .img-1{
+    margin-left: 50px;
+   margin-top: -800px;
+   
+  }
+  .img-2{
+    margin-left: 100px;
+    margin-top: -800px;
+  }
+  .img-3{ 
+    margin-left: 100px;
+    margin-top: -800px;
+  }
+  .img-4{ 
+    margin-right: 0px;
+    margin-top: -150px;
+  }
+  .img-5{
+    margin-right:0px;
+    margin-top: -150px;
+  }
+  .img-6{
+    margin-right: 0px;
+    margin-top: -150px;
+  }
+
+
+
+
+
+
+
+
+  .box-2{
+    background-color: #222222;
+    
+  }
+  .fnt-sz{
+    font-size: 20px;
+  }
+  .box-4{
+  padding: 40px  190px;
+  }
+  .last{
+    width: 1060px;
+    margin-left: 190px;
+    text-align: center;
+    
+  }
