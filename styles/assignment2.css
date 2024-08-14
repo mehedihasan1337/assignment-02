@@ -25,6 +25,7 @@
    /* color 1 */
     .color-1{
      color: #FFFFFF;
+
     }
     /* color 2 */
     .color-2{
@@ -195,6 +196,7 @@
     object-fit: cover;
     object-position: 100% center;
     
+    
 
   }
   .two{
@@ -250,3 +252,70 @@
     margin-left: -20px;
     font-size: 14px;
   }
+  /* part 3 */
+  .mgn{
+    margin-left: 350px;
+  }
+  .box-3{
+    background-color: #222222;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: 150px 150px;
+   
+  }
+  .item{
+    border: 0.5px solid #ffffff17;
+    padding: 10px;
+    
+
+  }
+  .mgn-1{
+    margin-left: 190px;
+  }
+  .mgn-2{
+    margin-right: 190px;
+  }
+  .gap-1{
+    margin-top: 10px;
+  }
+
+  .form{
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #ffffff11;
+    
+
+  }
+  .form-2{
+    width: 302px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #ffffff11;
+    
+  }
+  .form-1{
+    width: 612px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #ffffff11;
+
+  } 
+
