@@ -148,12 +148,14 @@
     
   /* skills section */
   .skills-container{
-    /* display: grid;
-    grid-template-rows: repeat(4); */
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: flex; */
     text-align: center;
-    gap: 65px;
+    gap: 80px;
     margin-top: 40px;
+    width: 1060px;
+    margin: 20px auto;
   }
   
   .rdns{
@@ -170,7 +172,8 @@
     border-radius: 18px;
     justify-content: space-between;
     padding: 30px;
-    margin-top: 20px;
+    margin: 20px auto;
+    width: 1060px;
   }
   .margin{
     margin-left: 40px;
@@ -298,7 +301,7 @@
       /* margin-left: 190px;
       margin-right: 190px; */
       width: 1060px;
-      margin: 20px 190px;
+      margin: 20px auto;
       
      }
      .laft{
@@ -309,6 +312,7 @@
       border-radius: 18px;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      width: 1060px;
      }
 
   .all{
@@ -422,23 +426,33 @@
     
       position: relative;
       left: 0px;
-      top: 0px;
+      top: 700px;
       text-align: right;
     }
     .br-3{
     
       position: relative;
-      left: 50px;
-      top: 0px;
+      left: 350px;
+      top: -600px;
       text-align: right;
     }
     .skills{
      /* width: 330px; */
      width: 100%;
+     margin-left:0 ;
     }
     .skills-container{
-      flex-direction: column;
+      /* flex-direction: column; */
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      
+      gap: 60px;
+      
+      width: 400px;
+      /* margin: 10px auto; */
+    
     }
+    
     .banner-2{
     
       flex-direction: column;
@@ -446,7 +460,7 @@
       padding:0px;
       /* width:330px; */
       width: 100%;
-      /* text-align: center; */
+      /* margin: 0px auto; */
       
     }
     .zoom{
@@ -465,10 +479,7 @@
     .mgn{
       margin-left: 10px;
     }
-    .box-3{
-      flex-direction: column;
-      
-    }
+    
     .mgn-1{
       margin-left: 10px;
     }
@@ -481,7 +492,7 @@
     .mgn-3{
     
       width: 100%;
-      margin: 10px 10px;
+      margin: 10px auto;
     }
     .laft{
       /* text-align: left; */
@@ -550,11 +561,7 @@
 
 }
 .box-3{
-  background-color: #222222;
-  display: flex;
-  gap: 30px;
-  
-  
+  flex-direction: column;
   margin-top: 30px;
   width: 100%;
   /* text-align: center; */
@@ -562,7 +569,6 @@
 
 }
 .box-2{
-  background-color: #222222;
   width: 100%;
   
   
